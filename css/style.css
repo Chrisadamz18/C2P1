@@ -117,6 +117,15 @@ text-align: center;
     margin-bottom: 20px;
 
 }
+.bg-dark {
+  background: #4b729f;
+  color: #333;
+}
+.bg-light {
+  background: #fff;
+  color: #333;
+}
+
 /* .bg-dark{
     background:#6b0b0b;
     color:#fff;
@@ -237,5 +246,14 @@ text-align: center;
 #contact-form input:focus, #contact-form textarea:focus{
     outline: none;
 }
+#contact-form .container{
+    margin-left: 50px;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 20px 0;
+   
+}
+
+
 
 
